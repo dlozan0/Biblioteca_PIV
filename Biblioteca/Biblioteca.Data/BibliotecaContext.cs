@@ -10,6 +10,14 @@ namespace Biblioteca.Data
 {
     public class BibliotecaContext: DbContext
     {
+       public BibliotecaContext() { }
+        public BibliotecaContext(string connectionName):base(connectionName)
+        {
+            
+        }
         public DbSet<Libro> Libros { get; set; }
+
+        public DbSet<Editorial> Editorial { get; set; } 
+
     }
 }
