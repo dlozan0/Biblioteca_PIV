@@ -19,5 +19,7 @@ namespace Biblioteca.Data
 
         public DbSet<Editorial> Editorial { get; set; } 
 
+        public DbSet<autor> Autores { get; set; }
+
     }
 }

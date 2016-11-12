@@ -9,6 +9,9 @@ namespace BibliotecaHost
     {
         public static void Register(HttpConfiguration config)
         {
+            GlobalConfiguration.Configuration.Formatters
+                .JsonFormatter.SerializerSettings.ReferenceLoopHandling =
+                Newtonsoft.Json.ReferenceLoopHandling.Ignore;
             // Web API configuration and services
 
             // Web API routes
