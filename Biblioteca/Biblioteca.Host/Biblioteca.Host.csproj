@@ -222,6 +222,8 @@
     <Content Include="Scripts\app\editorial\editorial.template.html" />
     <Content Include="Scripts\app\Home\home.controller.js" />
     <Content Include="Scripts\app\Home\home.template.html" />
+    <Content Include="Scripts\app\Libros\libro.controller.js" />
+    <Content Include="Scripts\app\Libros\libro.template.html" />
     <Content Include="Scripts\app\ngMenuBiblioteca\ngMenuBiblioteca.directive.js" />
     <Content Include="Scripts\app\ngMenuBiblioteca\ngMenuBiblioteca.template.html" />
     <Content Include="Scripts\app\routes.js" />
